@@ -1,3 +1,21 @@
+" ~/.pyenv/shimsを$PATHに追加
+" jedi-vim や vim-pyenc のロードよりも先に行う必要がある、はず。
+let g:python3_host_prog='/Users/kondoyoshio/.pyenv/shims/python'
+
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/dotfiles/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'davidhalter/jedi-vim'
+
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
+
 "----------------------------------------
 " 表示設定
 "----------------------------------------
@@ -25,3 +43,7 @@ set laststatus=2
 set autoindent
 " 暗い背景によく合う色にセット
 set background=dark
+" タブをスペース4文字とカウント
+set tabstop=4
+" カラースキームを変更
+colorscheme desert
