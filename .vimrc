@@ -1,20 +1,10 @@
-" ~/.pyenv/shimsを$PATHに追加
-" jedi-vim や vim-pyenc のロードよりも先に行う必要がある、はず。
-let g:python3_host_prog='/Users/kondoyoshio/.pyenv/shims/python'
+packloadall           " 全てのプラグインをロードする
+silent! helptags ALL  " 全てのプラグイン用にヘルプファイルをロードする
 
-set nocompatible              " be iMproved, required
-filetype off                  " required
-
-" set the runtime path to include Vundle and initialize
-set rtp+=~/dotfiles/.vim/bundle/Vundle.vim
-call vundle#begin()
-
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'davidhalter/jedi-vim'
-
-" All of your Plugins must be added before the following line
-call vundle#end()            " required
-filetype plugin indent on    " required
+" vim-plugでプラグインを管理する
+call plug#begin()
+Plug 'easymotion/vim-easymotion'
+call plug#end()
 
 "----------------------------------------
 " 表示設定
