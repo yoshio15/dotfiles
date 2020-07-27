@@ -37,3 +37,22 @@ set background=dark
 set tabstop=4
 " カラースキームを変更
 colorscheme desert
+" アンドゥファイル作成
+set undofile
+
+"----------------------------------------
+" キーマップ設定
+"----------------------------------------
+" 分割されたウィンドウ間の移動
+noremap <c-h> <c-w><c-h>
+noremap <c-j> <c-w><c-j>
+noremap <c-k> <c-w><c-k>
+noremap <c-l> <c-w><c-l>
+" 対応する閉じ括弧や引用符を入力する
+inoremap ' ''<esc>i
+inoremap " ""<esc>i
+inoremap ( ()<esc>i
+inoremap { {}<esc>i
+inoremap [ []<esc>i
+" インサートモードを抜ける
+inoremap <silent> jj <ESC>
