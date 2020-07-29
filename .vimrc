@@ -42,6 +42,10 @@ set tabstop=4
 colorscheme jellybeans
 " アンドゥファイル作成
 set undofile
+" カーソル行をハイライトする
+set cursorline
+" ルーラ（行、列、現在位置を右下に表示）
+set ruler
 
 "----------------------------------------
 " キーマップ設定
