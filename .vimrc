@@ -39,7 +39,7 @@ set background=dark
 " タブをスペース4文字とカウント
 set tabstop=4
 " カラースキームを変更
-colorscheme desert
+colorscheme jellybeans
 " アンドゥファイル作成
 set undofile
 
