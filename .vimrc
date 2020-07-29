@@ -6,6 +6,9 @@ call plug#begin()
 Plug 'easymotion/vim-easymotion'
 call plug#end()
 
+" LeaderキーをSpaceキーに設定
+let mapleader = "\<space>"
+
 "----------------------------------------
 " 表示設定
 "----------------------------------------
