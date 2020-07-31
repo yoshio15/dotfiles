@@ -46,6 +46,8 @@ set undofile
 set cursorline
 " ルーラ（行、列、現在位置を右下に表示）
 set ruler
+" インデント幅
+set shiftwidth=2
 
 "----------------------------------------
 " キーマップ設定
