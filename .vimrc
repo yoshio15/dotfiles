@@ -1,27 +1,22 @@
 packloadall           " 全てのプラグインをロードする
 silent! helptags ALL  " 全てのプラグイン用にヘルプファイルをロードする
 
-" vim-plugでプラグインを管理する
+"----------------------------------------
+" plugins
+"----------------------------------------
 call plug#begin()
 Plug 'easymotion/vim-easymotion'
 call plug#end()
 
-" LeaderキーをSpaceキーに設定
-let mapleader = "\<space>"
-
 "----------------------------------------
-" 表示設定
+" general
 "----------------------------------------
 " 行番号を表示
 set number
 " タイトルを表示
 set title
-" コメントの色を水色
-hi Comment ctermfg=DarkCyan
 " yでコピーした時にクリップボードに入る
 set guioptions+=a
-" シンタックスハイライトの有効化
-syntax enable
 " INSERTモードで挿入する時適切な数の空白を補う
 set expandtab
 " 前回の検索パターンが存在する時、それにマッチするテキストを全て強調表示
@@ -38,8 +33,6 @@ set autoindent
 set background=dark
 " タブをスペース4文字とカウント
 set tabstop=4
-" カラースキームを変更
-colorscheme jellybeans
 " アンドゥファイル作成
 set undofile
 " カーソル行をハイライトする
@@ -50,8 +43,20 @@ set ruler
 set shiftwidth=2
 
 "----------------------------------------
-" キーマップ設定
+" appearance
 "----------------------------------------
+" カラースキームを変更
+colorscheme jellybeans
+" コメントの色を水色
+hi Comment ctermfg=DarkCyan
+" シンタックスハイライトの有効化
+syntax enable
+
+"----------------------------------------
+" key binding
+"----------------------------------------
+" LeaderキーをSpaceキーに設定
+let mapleader = "\<space>"
 " 分割されたウィンドウ間の移動
 noremap <c-h> <c-w><c-h>
 noremap <c-j> <c-w><c-j>
