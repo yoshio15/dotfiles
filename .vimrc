@@ -41,16 +41,14 @@ set cursorline
 set ruler
 " インデント幅
 set shiftwidth=2
+" クリップボードへのコピー
+set clipboard=unnamed,autoselect
 
 "----------------------------------------
 " appearance
 "----------------------------------------
 " カラースキームを変更
 colorscheme jellybeans
-" コメントの色を水色
-hi Comment ctermfg=DarkCyan
-" シンタックスハイライトの有効化
-syntax enable
 
 "----------------------------------------
 " key binding
