@@ -8,6 +8,7 @@ call plug#begin()
 Plug 'easymotion/vim-easymotion'
 Plug 'airblade/vim-gitgutter'
 Plug 'preservim/nerdtree'
+Plug 'vim-jp/vimdoc-ja'
 call plug#end()
 
 "----------------------------------------
@@ -45,6 +46,8 @@ set ruler
 set shiftwidth=2
 " クリップボードへのコピー
 set clipboard=unnamed,autoselect
+" ヘルプの日本語化
+set helplang=ja
 
 "----------------------------------------
 " appearance
