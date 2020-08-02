@@ -7,6 +7,7 @@ silent! helptags ALL  " 全てのプラグイン用にヘルプファイルを�
 call plug#begin()
 Plug 'easymotion/vim-easymotion'
 Plug 'airblade/vim-gitgutter'
+Plug 'preservim/nerdtree'
 call plug#end()
 
 "----------------------------------------
@@ -69,3 +70,5 @@ inoremap { {}<esc>i
 inoremap [ []<esc>i
 " インサートモードを抜ける
 inoremap <silent> jj <ESC>
+" NERDTreeを開く
+nnoremap <silent><C-n> :NERDTreeToggle<CR>
