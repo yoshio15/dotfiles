@@ -48,6 +48,8 @@ set shiftwidth=2
 set clipboard=unnamed,autoselect
 " ヘルプの日本語化
 set helplang=ja
+" コードジャンプ
+set tags=.tags;
 
 "----------------------------------------
 " appearance
