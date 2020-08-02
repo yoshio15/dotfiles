@@ -6,6 +6,7 @@ silent! helptags ALL  " 全てのプラグイン用にヘルプファイルを�
 "----------------------------------------
 call plug#begin()
 Plug 'easymotion/vim-easymotion'
+Plug 'airblade/vim-gitgutter'
 call plug#end()
 
 "----------------------------------------
