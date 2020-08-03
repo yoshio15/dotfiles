@@ -77,3 +77,5 @@ inoremap [ []<esc>i
 inoremap <silent> jj <ESC>
 " NERDTreeを開く
 nnoremap <silent><C-n> :NERDTreeToggle<CR>
+" tagsジャンプの時に複数ある時は一覧表示                                        
+nnoremap <C-]> g<C-]>
