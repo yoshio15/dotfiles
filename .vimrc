@@ -9,11 +9,21 @@ Plug 'easymotion/vim-easymotion'
 Plug 'airblade/vim-gitgutter'
 Plug 'preservim/nerdtree'
 Plug 'vim-jp/vimdoc-ja'
+Plug 'ryanoasis/vim-devicons'
 call plug#end()
+
+"----------------------------------------
+" variables
+"----------------------------------------
+" フォルダアイコンを表示
+let g:WebDevIconsNerdTreeBeforeGlyphPadding = ""
+let g:WebDevIconsUnicodeDecorateFolderNodes = v:true
 
 "----------------------------------------
 " general
 "----------------------------------------
+" 文字コード設定
+set encoding=UTF-8
 " 行番号を表示
 set number
 " タイトルを表示
