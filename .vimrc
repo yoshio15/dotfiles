@@ -13,6 +13,7 @@ Plug 'preservim/nerdtree'
 Plug 'vim-jp/vimdoc-ja'
 Plug 'ryanoasis/vim-devicons'
 Plug 'itchyny/lightline.vim'
+Plug 'bronson/vim-trailing-whitespace'
 call plug#end()
 
 "----------------------------------------
@@ -99,5 +100,5 @@ inoremap [ []<esc>i
 inoremap <silent> jj <ESC>
 " NERDTreeを開く
 nnoremap <silent><C-n> :NERDTreeToggle<CR>
-" tagsジャンプの時に複数ある時は一覧表示                                        
+" tagsジャンプの時に複数ある時は一覧表示
 nnoremap <C-]> g<C-]>
