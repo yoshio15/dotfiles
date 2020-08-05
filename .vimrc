@@ -60,6 +60,8 @@ set clipboard=unnamed,autoselect
 set helplang=ja
 " コードジャンプ
 set tags=.tags;
+" カーソルの左右移動で行末から次の行の行頭への移動を可能に
+set whichwrap=b,s,h,l,<,>,[,],~
 
 "----------------------------------------
 " appearance
