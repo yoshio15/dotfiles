@@ -71,7 +71,7 @@ colorscheme jellybeans
 " key binding
 "----------------------------------------
 " LeaderキーをSpaceキーに設定
-let mapleader = "\<space>"
+let g:mapleader = "\<space>"
 " 分割されたウィンドウ間の移動
 noremap <c-h> <c-w><c-h>
 noremap <c-j> <c-w><c-j>
