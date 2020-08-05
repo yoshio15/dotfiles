@@ -1,3 +1,5 @@
+set encoding=utf-8    " Vim内部で使われる文字エンコーディングを設定
+scriptencoding utf-8  " スクリプトで使われている文字コードを宣言
 packloadall           " 全てのプラグインをロードする
 silent! helptags ALL  " 全てのプラグイン用にヘルプファイルをロードする
 
@@ -22,8 +24,6 @@ let g:WebDevIconsUnicodeDecorateFolderNodes = v:true
 "----------------------------------------
 " general
 "----------------------------------------
-" 文字コード設定
-set encoding=UTF-8
 " 行番号を表示
 set number
 " タイトルを表示
