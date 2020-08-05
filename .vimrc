@@ -76,7 +76,14 @@ let g:mapleader = "\<space>"
 noremap <c-h> <c-w><c-h>
 noremap <c-j> <c-w><c-j>
 noremap <c-k> <c-w><c-k>
-noremap <c-l> <c-w><c-l>
+" 表示行単位で上下移動するように
+nnoremap j gj
+nnoremap k gk
+nnoremap <Down> gj
+nnoremap <Up>   gk
+" 実際の行単位で移動したい時用
+nnoremap gj j
+nnoremap gk koremap <c-l> <c-w><c-l>
 " 対応する閉じ括弧や引用符を入力する
 inoremap ' ''<esc>i
 inoremap " ""<esc>i
