@@ -12,6 +12,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'preservim/nerdtree'
 Plug 'vim-jp/vimdoc-ja'
 Plug 'ryanoasis/vim-devicons'
+Plug 'itchyny/lightline.vim'
 call plug#end()
 
 "----------------------------------------
