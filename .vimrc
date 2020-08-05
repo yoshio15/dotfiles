@@ -14,6 +14,7 @@ Plug 'vim-jp/vimdoc-ja'
 Plug 'ryanoasis/vim-devicons'
 Plug 'itchyny/lightline.vim'
 Plug 'bronson/vim-trailing-whitespace'
+Plug 'Yggdroot/indentLine'
 call plug#end()
 
 "----------------------------------------
