@@ -15,14 +15,14 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'itchyny/lightline.vim'
 Plug 'bronson/vim-trailing-whitespace'
 Plug 'Yggdroot/indentLine'
-" if has('nvim')
-  " Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-" else
-  " Plug 'Shougo/deoplete.nvim'
-  " Plug 'roxma/nvim-yarp'
-  " Plug 'roxma/vim-hug-neovim-rpc'
-" endif
-" let g:deoplete#enable_at_startup = 1
+if has('nvim')
+  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+else
+  Plug 'Shougo/deoplete.nvim'
+  Plug 'roxma/nvim-yarp'
+  Plug 'roxma/vim-hug-neovim-rpc'
+endif
+let g:deoplete#enable_at_startup = 1
 call plug#end()
 
 "----------------------------------------
