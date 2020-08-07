@@ -22,7 +22,6 @@ else
   Plug 'roxma/nvim-yarp'
   Plug 'roxma/vim-hug-neovim-rpc'
 endif
-let g:deoplete#enable_at_startup = 1
 call plug#end()
 
 "----------------------------------------
@@ -31,6 +30,8 @@ call plug#end()
 " フォルダアイコンを表示
 let g:WebDevIconsNerdTreeBeforeGlyphPadding = ""
 let g:WebDevIconsUnicodeDecorateFolderNodes = v:true
+" deoplete.nvim用の設定値
+let g:deoplete#enable_at_startup = 1
 
 "----------------------------------------
 " general
