@@ -1,4 +1,3 @@
-autocmd!
 set encoding=utf-8    " Vim内部で使われる文字エンコーディングを設定
 scriptencoding utf-8  " スクリプトで使われている文字コードを宣言
 packloadall           " 全てのプラグインをロードする
@@ -29,8 +28,9 @@ call plug#end()
 " auto commands
 "----------------------------------------
 augroup MyAutoCmd
-  autocmd BufWritePost .vimrc source $MYVIMRC | redraw
+  autocmd!
 augroup END
+autocmd MyAutoCmd BufWritePost .vimrc source $MYVIMRC
 
 "----------------------------------------
 " variables
