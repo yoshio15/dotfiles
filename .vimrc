@@ -120,3 +120,5 @@ inoremap <silent> jj <ESC>
 nnoremap <silent><C-n> :NERDTreeToggle<CR>
 " tagsジャンプの時に複数ある時は一覧表示
 nnoremap <C-]> g<C-]>
+" .vimrcをすぐに開けるように
+nnoremap <Leader>ev  :<C-u>edit $MYVIMRC<CR>
