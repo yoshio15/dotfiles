@@ -122,3 +122,5 @@ nnoremap <silent><C-n> :NERDTreeToggle<CR>
 nnoremap <C-]> g<C-]>
 " .vimrcをすぐに開けるように
 nnoremap <Leader>ev  :<C-u>edit $MYVIMRC<CR>
+" ファイル保存
+nnoremap <Leader>w :w<CR>
