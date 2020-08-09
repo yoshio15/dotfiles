@@ -124,3 +124,5 @@ nnoremap <C-]> g<C-]>
 nnoremap <Leader>ev  :<C-u>edit $MYVIMRC<CR>
 " ファイル保存
 nnoremap <Leader>w :w<CR>
+" ヘルプの参照
+nnoremap <C-h> :<C-u>h<Space>
