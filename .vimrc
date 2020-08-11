@@ -62,6 +62,8 @@ set incsearch
 set laststatus=2
 " 新しい行のインデントを現在行と同じにする
 set autoindent
+" スマートインデント（autoindentも同時に有効である必要があるよう）
+set smartindent
 " 暗い背景によく合う色にセット
 set background=dark
 " タブをスペース4文字とカウント
@@ -84,7 +86,6 @@ set tags=.tags;
 set whichwrap=b,s,h,l,<,>,[,],~
 " コマンドモードの補完
 set wildmenu
-
 "----------------------------------------
 " appearance
 "----------------------------------------
