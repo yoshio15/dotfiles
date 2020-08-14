@@ -15,6 +15,7 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'itchyny/lightline.vim'
 Plug 'bronson/vim-trailing-whitespace'
 Plug 'Yggdroot/indentLine'
+Plug 'maxmellon/vim-jsx-pretty'
 if has('nvim')
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 else
@@ -40,6 +41,9 @@ let g:WebDevIconsNerdTreeBeforeGlyphPadding = ""
 let g:WebDevIconsUnicodeDecorateFolderNodes = v:true
 " deoplete.nvim用の設定値
 let g:deoplete#enable_at_startup = 1
+" vim-jsx-pretty用の設定値
+let g:vim_jsx_pretty_highlight_close_tag = 0
+let g:vim_jsx_pretty_colorful_config = 1
 
 "----------------------------------------
 " general
