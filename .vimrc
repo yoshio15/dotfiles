@@ -90,6 +90,9 @@ set tags=.tags;
 set whichwrap=b,s,h,l,<,>,[,],~
 " コマンドモードの補完
 set wildmenu
+" undofileの出力先を一箇所に
+set undodir=$HOME/.vim/undo
+
 "----------------------------------------
 " appearance
 "----------------------------------------
