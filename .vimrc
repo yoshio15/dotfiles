@@ -94,6 +94,8 @@ set wildmenu
 set undodir=$HOME/.vim/undo
 " swpファイル出力先
 set directory=$HOME/.vim/swap
+" バックアップファイル出力先
+set backupdir=$HOME/.vim/backup
 
 "----------------------------------------
 " appearance
