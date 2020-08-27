@@ -92,6 +92,8 @@ set whichwrap=b,s,h,l,<,>,[,],~
 set wildmenu
 " undofileの出力先を一箇所に
 set undodir=$HOME/.vim/undo
+" swpファイル出力先
+set directory=$HOME/.vim/swap
 
 "----------------------------------------
 " appearance
