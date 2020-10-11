@@ -100,6 +100,8 @@ set undodir=$HOME/.vim/undo
 set directory=$HOME/.vim/swap
 " バックアップファイル出力先
 set backupdir=$HOME/.vim/backup
+" 新しいウィンドウを右に開く
+set splitright
 
 "----------------------------------------
 " appearance
