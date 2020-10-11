@@ -142,3 +142,5 @@ nnoremap <Leader>ev  :<C-u>edit $MYVIMRC<CR>
 nnoremap <Leader>w :w<CR>
 " ヘルプの参照
 nnoremap <C-h> :<C-u>h<Space>
+" Markdownプレビュー
+nnoremap <Leader>md :PreviewMarkdown<CR>
