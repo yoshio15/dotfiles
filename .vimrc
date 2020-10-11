@@ -102,6 +102,8 @@ set directory=$HOME/.vim/swap
 set backupdir=$HOME/.vim/backup
 " 新しいウィンドウを右に開く
 set splitright
+" 新しいウィンドウを下に開く
+set splitbelow
 
 "----------------------------------------
 " appearance
