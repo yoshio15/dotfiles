@@ -48,6 +48,8 @@ let g:vim_jsx_pretty_colorful_config = 1
 " skanehira/preview-markdown.vim用の設定値
 let g:preview_markdown_vertical = 1
 let g:preview_markdown_auto_update = 1
+" ファイルを開いたらNERDTreeを閉じる
+let g:NERDTreeQuitOnOpen=1
 
 "----------------------------------------
 " general
