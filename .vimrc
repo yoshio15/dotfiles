@@ -147,6 +147,8 @@ inoremap <C-h> <Left>
 inoremap <C-l> <Right>
 " インサートモードを抜ける
 inoremap <silent> jj <ESC>
+" 日本語入力で”っj”と入力してもEnterキーで確定させればインサートモードを抜ける
+inoremap <silent> っj <ESC>
 " NERDTreeを開く
 nnoremap <silent><C-n> :NERDTreeToggle<CR>
 " tagsジャンプの時に複数ある時は一覧表示
