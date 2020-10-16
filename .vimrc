@@ -140,6 +140,11 @@ inoremap " ""<esc>i
 inoremap ( ()<esc>i
 inoremap { {}<esc>i
 inoremap [ []<esc>i
+" 入力モードでのカーソル移動
+inoremap <C-j> <Down>
+inoremap <C-k> <Up>
+inoremap <C-h> <Left>
+inoremap <C-l> <Right>
 " インサートモードを抜ける
 inoremap <silent> jj <ESC>
 " NERDTreeを開く
