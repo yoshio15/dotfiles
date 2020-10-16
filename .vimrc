@@ -122,6 +122,10 @@ colorscheme jellybeans
 "----------------------------------------
 " LeaderキーをSpaceキーに設定
 let g:mapleader = "\<space>"
+
+"----------------------------------------
+" key binding (normal-mode)
+"----------------------------------------
 " 分割されたウィンドウ間の移動
 noremap <c-h> <c-w><c-h>
 noremap <c-j> <c-w><c-j>
@@ -141,6 +145,22 @@ nnoremap う u
 nnoremap お o
 nnoremap っd dd
 nnoremap っy yy
+" NERDTreeを開く
+nnoremap <silent><C-n> :NERDTreeToggle<CR>
+" tagsジャンプの時に複数ある時は一覧表示
+nnoremap <C-]> g<C-]>
+" .vimrcをすぐに開けるように
+nnoremap <Leader>ev  :<C-u>edit $MYVIMRC<CR>
+" ファイル保存
+nnoremap <Leader>w :w<CR>
+" ヘルプの参照
+nnoremap <C-h> :<C-u>h<Space>
+" Markdownプレビュー
+nnoremap <Leader>md :PreviewMarkdown<CR>
+
+"----------------------------------------
+" key binding (insert-mode)
+"----------------------------------------
 " 対応する閉じ括弧や引用符を入力する
 inoremap ' ''<esc>i
 inoremap " ""<esc>i
@@ -156,15 +176,3 @@ inoremap <C-l> <Right>
 inoremap <silent> jj <ESC>
 " 日本語入力で”っj”と入力してもEnterキーで確定させればインサートモードを抜ける
 inoremap <silent> っj <ESC>
-" NERDTreeを開く
-nnoremap <silent><C-n> :NERDTreeToggle<CR>
-" tagsジャンプの時に複数ある時は一覧表示
-nnoremap <C-]> g<C-]>
-" .vimrcをすぐに開けるように
-nnoremap <Leader>ev  :<C-u>edit $MYVIMRC<CR>
-" ファイル保存
-nnoremap <Leader>w :w<CR>
-" ヘルプの参照
-nnoremap <C-h> :<C-u>h<Space>
-" Markdownプレビュー
-nnoremap <Leader>md :PreviewMarkdown<CR>
