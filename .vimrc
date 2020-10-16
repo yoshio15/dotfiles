@@ -108,6 +108,8 @@ set backupdir=$HOME/.vim/backup
 set splitright
 " 新しいウィンドウを下に開く
 set splitbelow
+" 行の折り返し点を表示する
+set showbreak=↪
 
 "----------------------------------------
 " appearance
