@@ -49,7 +49,9 @@ let g:vim_jsx_pretty_colorful_config = 1
 let g:preview_markdown_vertical = 1
 let g:preview_markdown_auto_update = 1
 " ファイルを開いたらNERDTreeを閉じる
-let g:NERDTreeQuitOnOpen=1
+let g:NERDTreeQuitOnOpen = 1
+" 親ディレクトリへ移動
+let g:NERDTreeMapUpdir = '<C-u>'
 
 "----------------------------------------
 " general
