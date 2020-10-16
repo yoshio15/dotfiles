@@ -134,6 +134,13 @@ nnoremap <Up>   gk
 " 実際の行単位で移動したい時用
 nnoremap gj j
 nnoremap gk koremap <c-l> <c-w><c-l>
+" 日本語入力がオンのままでも使えるコマンド(Enterキーは必要)
+nnoremap あ a
+nnoremap い i
+nnoremap う u
+nnoremap お o
+nnoremap っd dd
+nnoremap っy yy
 " 対応する閉じ括弧や引用符を入力する
 inoremap ' ''<esc>i
 inoremap " ""<esc>i
