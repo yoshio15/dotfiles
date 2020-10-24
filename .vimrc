@@ -65,6 +65,8 @@ let g:preview_markdown_auto_update = 1
 let g:NERDTreeQuitOnOpen = 1
 " 親ディレクトリへ移動
 let g:NERDTreeMapUpdir = '<C-u>'
+" BlogPost用のBase-Path
+let g:blogpost_base_path = '~/Sources/00_YoshioNote/yoshionote/content/blog/'
 
 "----------------------------------------
 " general
