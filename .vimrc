@@ -30,6 +30,7 @@ Plug 'bronson/vim-trailing-whitespace'
 Plug 'Yggdroot/indentLine'
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'skanehira/preview-markdown.vim'
+Plug 'LeafCage/vimhelpgenerator'
 if has('nvim')
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 else
