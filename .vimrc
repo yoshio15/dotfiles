@@ -31,6 +31,7 @@ Plug 'Yggdroot/indentLine'
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'skanehira/preview-markdown.vim'
 Plug 'LeafCage/vimhelpgenerator'
+Plug 'altercation/vim-colors-solarized'
 if has('nvim')
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 else
@@ -131,7 +132,7 @@ set showbreak=↪
 " appearance
 "----------------------------------------
 " カラースキームを変更
-colorscheme jellybeans
+colorscheme solarized
 
 "----------------------------------------
 " key binding
