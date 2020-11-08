@@ -64,6 +64,10 @@ let g:NERDTreeQuitOnOpen = 1
 let g:NERDTreeMapUpdir = '<C-u>'
 " BlogPost用のBase-Path
 let g:blogpost_base_path = '~/Sources/00_YoshioNote/yoshionote/content/blog/'
+" LSPの設定
+let g:lsp_signs_enabled = 1
+let g:lsp_diagnostics_echo_cursor = 1
+let g:lsp_signs_error = {'text': '✔︎'}
 
 "----------------------------------------
 " general
