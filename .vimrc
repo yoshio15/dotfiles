@@ -32,13 +32,6 @@ Plug 'maxmellon/vim-jsx-pretty'
 Plug 'skanehira/preview-markdown.vim'
 Plug 'LeafCage/vimhelpgenerator'
 Plug 'altercation/vim-colors-solarized'
-if has('nvim')
-  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-else
-  Plug 'Shougo/deoplete.nvim'
-  Plug 'roxma/nvim-yarp'
-  Plug 'roxma/vim-hug-neovim-rpc'
-endif
 call plug#end()
 
 "----------------------------------------
@@ -55,8 +48,6 @@ autocmd MyAutoCmd BufWritePost .vimrc source $MYVIMRC
 " フォルダアイコンを表示
 let g:WebDevIconsNerdTreeBeforeGlyphPadding = ""
 let g:WebDevIconsUnicodeDecorateFolderNodes = v:true
-" deoplete.nvim用の設定値
-let g:deoplete#enable_at_startup = 1
 " vim-jsx-pretty用の設定値
 let g:vim_jsx_pretty_highlight_close_tag = 0
 let g:vim_jsx_pretty_colorful_config = 1
