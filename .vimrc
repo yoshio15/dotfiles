@@ -32,6 +32,8 @@ Plug 'maxmellon/vim-jsx-pretty'
 Plug 'skanehira/preview-markdown.vim'
 Plug 'LeafCage/vimhelpgenerator'
 Plug 'altercation/vim-colors-solarized'
+Plug 'prabirshrestha/vim-lsp'
+Plug 'mattn/vim-lsp-settings'
 call plug#end()
 
 "----------------------------------------
