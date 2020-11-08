@@ -68,6 +68,7 @@ let g:blogpost_base_path = '~/Sources/00_YoshioNote/yoshionote/content/blog/'
 let g:lsp_signs_enabled = 1
 let g:lsp_diagnostics_echo_cursor = 1
 let g:lsp_signs_error = {'text': '✔︎'}
+let g:lsp_signs_warning = {'text': '‼'}
 
 "----------------------------------------
 " general
