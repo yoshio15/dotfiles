@@ -174,6 +174,8 @@ nnoremap <Leader>w :w<CR>
 nnoremap <C-h> :<C-u>h<Space>
 " Markdownプレビュー
 nnoremap <Leader>md :PreviewMarkdown<CR>
+" タブ閉じる
+nnoremap <Leader>x :tabclose<CR>
 
 "----------------------------------------
 " key binding (insert-mode)
