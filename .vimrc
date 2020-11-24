@@ -176,6 +176,8 @@ nnoremap <C-h> :<C-u>h<Space>
 nnoremap <Leader>md :PreviewMarkdown<CR>
 " タブ閉じる
 nnoremap <Leader>x :tabclose<CR>
+" タブ戻る
+nnoremap bt gT
 
 "----------------------------------------
 " key binding (insert-mode)
