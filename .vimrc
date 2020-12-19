@@ -36,6 +36,7 @@ Plug 'prabirshrestha/vim-lsp'
 Plug 'mattn/vim-lsp-settings'
 Plug 'prabirshrestha/asyncomplete.vim'
 Plug 'prabirshrestha/asyncomplete-lsp.vim'
+Plug 'yoshio15/vim-trello', { 'branch': 'main' }
 call plug#end()
 
 "----------------------------------------
