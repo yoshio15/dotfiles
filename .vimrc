@@ -74,6 +74,8 @@ let g:lsp_signs_warning = {'text': '‼'}
 " Trello API Key
 let g:vimTrelloApiKey = ''
 let g:vimTrelloToken = ''
+" gh.vim
+let g:gh_token = ''
 
 "----------------------------------------
 " general
