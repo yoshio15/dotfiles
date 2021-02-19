@@ -186,6 +186,11 @@ nnoremap <Leader>md :PreviewMarkdown<CR>
 nnoremap <Leader>x :tabclose<CR>
 " タブ戻る
 nnoremap bt gT
+" vimgrep
+nnoremap <Leader>b :cprevious<CR>
+nnoremap <Leader>n :cnext<CR>
+nnoremap <Leader>f :<C-u>cfirst<CR>
+nnoremap <Leader>l :<C-u>clast<CR>
 
 "----------------------------------------
 " key binding (insert-mode)
